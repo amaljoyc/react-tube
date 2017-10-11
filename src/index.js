@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 
 import SearchBar from './components/search-bar';
 
+const API_KEY = '';
 
 const App = () => {
   return (
@@ -11,6 +12,6 @@ const App = () => {
       <SearchBar />
     </div>
   );
-}
+};
 
 ReactDOM.render(<App />, document.querySelector('.container'));
